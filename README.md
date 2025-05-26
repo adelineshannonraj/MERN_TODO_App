@@ -1,43 +1,148 @@
-# ✅ To-Do List App
-
-A simple and elegant To-Do List built with React.js. This app allows users to add tasks and keeps track of the total number of tasks. Built as part of the **Phase 1 Frontend Submission**.
-
-## 🧰 Tech Stack
-
-- **Frontend:** React.js
-- **Styling:** CSS, custom background image
-- **Icons:** FontAwesome (optional)
+Absolutely, Shannon. Here’s your fully updated, copy-paste-ready `README.md` with your name, VIT registration number, and all the goodies pre-filled:
 
 ---
 
-## ✨ Features
+````markdown
+# 📝 MERN To-Do List
 
-- 🎯 Add new tasks
-- 📊 Real-time task count
-- 🎨 Beautiful, minimal UI
-- 📱 Responsive design
+A full-stack To-Do List app built using the MERN stack (MongoDB, Express.js, React.js, Node.js). This app allows users to add, update, delete, and track their daily tasks seamlessly.
+
+![screenshot](./screenshot.png)
+
+---
+
+## 🚀 Features
+
+- Add new tasks
+- Mark tasks as complete/incomplete
+- Delete tasks
+- Responsive UI
+- RESTful API integration
+- MongoDB-powered persistence
+
+---
+
+## 📁 Project Structure
+
+<pre>
+mern-todo/
+├── backend/
+│   ├── config/
+│   │   └── db.js               # MongoDB connection
+│   ├── models/
+│   │   └── Task.js             # Mongoose schema
+│   ├── routes/
+│   │   └── tasks.js            # API routes for tasks
+│   ├── .env                    # Environment variables
+│   └── server.js               # Entry point for backend
+├── frontend/
+│   ├── src/
+│   │   ├── api/
+│   │   │   └── api.js          # Axios API calls
+│   │   ├── components/
+│   │   │   └── TodoApp.js      # Main React component
+│   │   ├── styles/
+│   │   │   └── todo.css        # CSS styles
+│   │   ├── App.js              # Root app component
+│   │   └── index.js            # Entry point for frontend
+│   └── package.json            # Frontend dependencies
+├── README.md
+└── screenshot.png
+</pre>
+
+---
+
+## ⚙️ Installation
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/mern-todo.git
+cd mern-todo
+````
+
+### 2. Setup Backend
+
+```bash
+cd backend
+npm install
+```
+
+Create a `.env` file:
+
+```env
+MONGO_URI=your_mongodb_uri
+PORT=5000
+```
+
+Start the backend server:
+
+```bash
+npm start
+```
+
+### 3. Setup Frontend
+
+```bash
+cd frontend
+npm install
+npm start
+```
+
+> React frontend should now be running at `http://localhost:3000`
+
+---
+
+## 📦 API Endpoints
+
+| Method | Endpoint        | Description            |
+| ------ | --------------- | ---------------------- |
+| GET    | /api/tasks      | Get all tasks          |
+| POST   | /api/tasks      | Create a new task      |
+| PUT    | /api/tasks/\:id | Update a specific task |
+| DELETE | /api/tasks/\:id | Delete a specific task |
+
+---
+
+## 🧠 Tech Stack
+
+* **Frontend**: React.js, Axios, CSS
+* **Backend**: Node.js, Express.js
+* **Database**: MongoDB, Mongoose
+* **Tooling**: dotenv, nodemon
 
 ---
 
 ## 📸 Screenshot
 
-![App Screenshot](./screenshot.png) <!-- Replace with your actual screenshot path or add later -->
+![App Screenshot](./screenshot.png)
 
 ---
 
-## 🚀 Getting Started
+## ✍️ Author Details (Submission Info)
 
-To run this project locally:
+* **Name**: Adeline Shannon Raj
+* **VIT Registration No**: 23BCE7806
+* **GitHub**: [@yourusername](https://github.com/yourusername) *(Update with your actual username if needed)*
 
-1. **Clone or download the repository**
-2. Run the following commands in the terminal:
+---
 
-```bash
-npm install
-npm start
+## 🏁 License
 
-## 👤 Author
+This project is licensed under the [MIT License](LICENSE).
 
-- Name: Adeline Shannon Raj
-- VIT Registration No: 23BCE7806
-- Submission:Phase 1 Frontend
+---
+
+## 💡 Future Improvements
+
+* User authentication (JWT)
+* Task priority and due dates
+* Dark mode toggle (because we’re all nocturnal devs)
+
+---
+
+## ⭐️ Show Some Love
+
+If you like this project, please consider starring ⭐️ the repo and giving feedback!
+
+```
