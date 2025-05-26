@@ -1,8 +1,4 @@
-Absolutely, Shannon. Here’s your fully updated, copy-paste-ready `README.md` with your name, VIT registration number, and all the goodies pre-filled:
 
----
-
-````markdown
 # 📝 MERN To-Do List
 
 A full-stack To-Do List app built using the MERN stack (MongoDB, Express.js, React.js, Node.js). This app allows users to add, update, delete, and track their daily tasks seamlessly.
@@ -57,7 +53,7 @@ mern-todo/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/mern-todo.git
+git clone https://github.com/adelineshannonraj/mern-todo.git
 cd mern-todo
 ````
 
@@ -123,7 +119,7 @@ npm start
 
 * **Name**: Adeline Shannon Raj
 * **VIT Registration No**: 23BCE7806
-* **GitHub**: [@yourusername](https://github.com/yourusername) *(Update with your actual username if needed)*
+* **GitHub**: [@adelineshannonraj](https://github.com/adelineshannonraj)
 
 ---
 
@@ -140,9 +136,3 @@ This project is licensed under the [MIT License](LICENSE).
 * Dark mode toggle (because we’re all nocturnal devs)
 
 ---
-
-## ⭐️ Show Some Love
-
-If you like this project, please consider starring ⭐️ the repo and giving feedback!
-
-```
